@@ -5,5 +5,10 @@ RubyLearning.org Participants' Countries
 - select Countries/xxxx.html file
 - show the list of the Participants' Countries
 
+
+Change log:
+10th Oct: Updated data files (forpc101-7c.html and forpc101-8c.html)
+
+
 Cheers,
 ashbb
