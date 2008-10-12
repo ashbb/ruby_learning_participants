@@ -10,6 +10,7 @@ Requirement:
 
 
 Usage:
+- replace your username and passowrd, line 13 and 14 of ruby_launcher.rb
 - input the following command line to launch the ruby program (not Shoes app) - ruby_launcher.rb,
   with one argument (course name).
 
