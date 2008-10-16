@@ -33,6 +33,7 @@ Shoes.app :title => titlename, :width => 280, :height => 500 do
     para strong('Participants: ', pn, ', Countries: ', cn), :stroke => white
     countries.each_with_index do |e, i|
       y = 22 * i + 30
+      nostroke
       rect :width => 240, :height => 20, :left => 10, :top => y, :fill => rgb(75, 0, 130, 0.2), :curve => 5
       para strong(e.first), :left => 20, :top => y, :stroke => white
       para strong(e.last), :left => 200, :top => y, :stroke => white
