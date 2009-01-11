@@ -15,8 +15,8 @@ Usage:
 	C:\> ruby ruby_launcher.rb FORPC101-8C
 
 Change log:
-11th Jan: Supported the new spec of Mechanize 0.9.0. <br>
-2009 <br>
+11th Jan: Supported the new spec of Mechanize 0.9.0.
+2009
 16th Oct: Added 'nostroke' for Shoes-0.r1057
 13th Oct: Released new ruby_launcher.rb and shows_countries_new.rb
           This new version needs no local data files (i.e. forpc101-7c.html)
