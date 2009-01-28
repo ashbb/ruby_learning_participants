@@ -17,6 +17,11 @@ Usage:
   + line 17 and 18 of ruby_launcher2.rb
   + line 20 and 21 of all_courses.rb
 
+- select the courses
+  + ruby_launcher.rb  : give it as an argument
+  + ruby_launcher2.rb : edit line 6, 7, 8, 9
+  + all_courses.rb    : edit line 7, 8, 9, 10
+
 - run the Ruby program
   + C:\> ruby ruby_launcher.rb <course name>
   + C:\> ruby ruby_launcher2.rb
