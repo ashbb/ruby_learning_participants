@@ -1,20 +1,29 @@
 RubyLearning.org Participants' Countries
 
+Now three tools available.
+- ruby_launcher.rb   : Launches Shoes app, shoes_countries_new.rb. Specify the course name.
+- ruby_launcher2.rb  : Launches Shoes app, shoes_all_courses.rb. Total of all courses.
+- all_courses.rb     : No Shoes. Just output to console. Total of all courses.
+
 Requirement:
-  This vesion uses Hpricot and Mechanize.
+  This vesion uses Hpricot and Mechanize (0.9.0).
 
   gem install hpricot
   gem install mechanize
 
-
 Usage:
-- replace your username and passowrd, line 12 and 13 of ruby_launcher.rb
-- input the following command line to launch the ruby program (not Shoes app)
-- ruby_launcher.rb, with one argument (course name).
+- replace your username and passowrd
+  + line 12 and 13 of ruby_launcher.rb
+  + line 17 and 18 of ruby_launcher2.rb
+  + line 20 and 21 of all_courses.rb
 
-	C:\> ruby ruby_launcher.rb FORPC101-8C
+- run the Ruby program
+  + C:\> ruby ruby_launcher.rb <course name>
+  + C:\> ruby ruby_launcher2.rb
+  + C:\> ruby all_courses.rb
 
 Change log:
+28th Jan: Added two new tools, ruby_launcher2.rb and all_courses.rb, which output a total of all courses.
 11th Jan: Supported the new spec of Mechanize 0.9.0.
 2009
 16th Oct: Added 'nostroke' for Shoes-0.r1057
