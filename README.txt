@@ -28,6 +28,7 @@ Usage:
   + C:\> ruby all_courses.rb
 
 Change log:
+12th Feb: Merged RLGGHC's pull-request.
 28th Jan: Added two new tools, ruby_launcher2.rb and all_courses.rb, which output a total of all courses.
 11th Jan: Supported the new spec of Mechanize 0.9.0.
 2009
