@@ -39,9 +39,9 @@ Change log:
 To do list:
 - If the following Shoes feature works well, use it instead of the way launching from ruby.
 
-	Shoes.setup do
-	  gem 'mechanize'
-	end
+  Shoes.setup do
+    gem 'mechanize'
+  end
 
 --------------------------------------------------------------------
 The OLD version:
@@ -57,4 +57,4 @@ Change log:
 --------------------------------------------------------------------
 
 Cheers,
-ashbb
+ashbb (Satoshi Asakawa)
