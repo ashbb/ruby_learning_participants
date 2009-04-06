@@ -12,15 +12,11 @@ Requirement:
   gem install mechanize
 
 Usage:
-- replace your username and password
-  + line 12 and 13 of ruby_launcher.rb
-  + line 17 and 18 of ruby_launcher2.rb
-  + line 20 and 21 of all_courses.rb
 
 - select the courses
   + ruby_launcher.rb  : give it as an argument
-  + ruby_launcher2.rb : edit line 6, 7, 8, 9
-  + all_courses.rb    : edit line 7, 8, 9, 10
+  + ruby_launcher2.rb : edit line 7-13
+  + all_courses.rb    : edit line 8-14
 
 - run the Ruby program
   + C:\> ruby ruby_launcher.rb <course name>
@@ -28,6 +24,7 @@ Usage:
   + C:\> ruby all_courses.rb
 
 Change log:
+06th Apr: Added `highline/import`. (Vic's suggestion)
 25th Feb: Fixed a few typos
 12th Feb: Merged RLGGHC's pull-request.
 28th Jan: Added two new tools, ruby_launcher2.rb and all_courses.rb, which output a total of all courses.

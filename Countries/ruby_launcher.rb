@@ -3,14 +3,15 @@
 # Mechanize compliant version: 0.9.0
 
 require 'mechanize'
+require 'highline/import'
 
 agent = WWW::Mechanize.new
 
 login_page = agent.get("http://rubylearning.org/class/login/index.php")
 
 login_form = login_page.forms.first
-login_form['username'] = "your username"
-login_form['password'] = "your password"
+login_form['username'] = ask('Username: '){|q|q.echo = true}
+login_form['password'] = ask('Password: '){|q|q.echo = '*'}
 main_page = agent.submit(login_form)
 
 #course_link = main_page.links.text(ARGV[0].upcase)
