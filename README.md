@@ -9,25 +9,30 @@ Snapshot
 Requirement
 ------------
 
-  gem install mechanize
-  gem install nokogiri
-
+<pre>
+gem install mechanize
+gem install nokogiri
+</pre>
 
 Usage
 ------
 
 - Set your login user name, password and course name at line 10-12 of RL_participants_countries.rb
 
-  #######################################
-  login_form['username'] = "*****"  <--- input your login user name, i.e. "asakawa"
-  login_form['password'] = "*****"  <--- input your login password, i.e. "12345"
-  course = "*****"  <--- input course name, i.e. "Core Ruby 20th batch"
-  #teachers = {'India' => 1, 'Japan' => 1, 'United States' => 1}
-  #######################################
+<pre>
+#######################################
+login_form['username'] = "*****"  <--- input your login user name, i.e. "asakawa"
+login_form['password'] = "*****"  <--- input your login password, i.e. "12345"
+course = "*****"  <--- input course name, i.e. "Core Ruby 20th batch"
+#teachers = {'India' => 1, 'Japan' => 1, 'United States' => 1}
+#######################################
+</pre>
 
 - Execute RL_participants_countries.rb
 
-  ruby RL_participants_countries.rb
+<pre>
+ruby RL_participants_countries.rb
+</pre>
 
 - Will get the output like this:
 
