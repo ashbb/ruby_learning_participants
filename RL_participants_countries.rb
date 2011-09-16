@@ -1,3 +1,4 @@
+# RL_participants_countries.rb
 require 'rubygems'
 require 'mechanize'
 require 'nokogiri'
