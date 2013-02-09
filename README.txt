@@ -21,3 +21,13 @@ Hi everyone! God bless us all!
 All the best,
 
 Jezrel Jane Himbing from the Philippines
+
+- - - - - - - -
+
+Hello Satoshi. 
+
+So glade to be a part of your github learning.
+
+Thanks for all your work.
+
+Douglas
