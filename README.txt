@@ -23,6 +23,9 @@ All the best,
 Jezrel Jane Himbing from the Philippines
 
 - - - - - - - -
+Cheers from Arvind
+.....................
+
 
 Hello Satoshi. 
 
